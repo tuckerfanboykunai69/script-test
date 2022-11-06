@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 		FileName = "TuckerKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "im a loser"
+		Key = "mlk is daddy-mBr37cJcLj"
 	}
 })
 
