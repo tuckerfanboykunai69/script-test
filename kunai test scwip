@@ -52,7 +52,6 @@ local Button = Tab:CreateButton({
 	Name = "Delete Lasers",
 	Callback = function()
         game:GetService("Workspace").BossLasers:Destroy()
-        end
 	end,
 })
 
