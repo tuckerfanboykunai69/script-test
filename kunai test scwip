@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab("Combat", 0)
+local Tab = Window:CreateTab("Combat", 83250046)
 local Section = Tab:CreateSection("Cmbt")
 
 Rayfield:LoadConfiguration()
