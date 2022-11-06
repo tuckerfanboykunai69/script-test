@@ -27,7 +27,20 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab("Combat", 83250046)
-local Section = Tab:CreateSection("Cmbt")
+local Tab = Window:CreateTab("Combat")
+local Section = Tab:CreateSection("Combat")
+
+local Button = Tab:CreateButton({
+	Name = "Blatant Reach",
+	Callback = function()
+		if game:GetService("Workspace")[game.Players.LocalPlayer.Name]:FindFirstChild("ClassicSword") then
+            while wait() do
+            game:GetService("Workspace")[game.Players.LocalPlayer.Name].Sword.GripPos=Vector3.new(0, 0, -7)
+            wait()
+            game:GetService("Workspace")[game.Players.LocalPlayer.Name].Sword.GripPos=Vector3.new(0, 0, -1.5)
+	end,
+})
+
+
 
 Rayfield:LoadConfiguration()
